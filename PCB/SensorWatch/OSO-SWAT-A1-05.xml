@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/kevin/KicadProjects/SensorWatch/OSO-SWAT-A1-05.kicad_sch</source>
+    <date>Fri 12 May 2023 05:21:57 AM PDT</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OSO-SWAT-A1-05.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AC1">
+      <value>BMA400</value>
+      <footprint>KevinsFootprints:BOSCH_LGA-12</footprint>
+      <datasheet>https://componentsearchengine.com//BMA400.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">BOSCH</field>
+        <field name="Manufacturer_Part_Number">BMA400</field>
+        <field name="Mouser2 Part Number">262-BMA400</field>
+        <field name="Mouser2 Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=262-BMA400</field>
+      </fields>
+      <libsource lib="KevinsSymbols" part="BMA400" description="Ultra-low power triaxial accelerometer"/>
+      <property name="Height" value=""/>
+      <property name="Mouser2 Part Number" value="262-BMA400"/>
+      <property name="Mouser2 Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=262-BMA400"/>
+      <property name="Manufacturer_Name" value="BOSCH"/>
+      <property name="Manufacturer_Part_Number" value="BMA400"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Ultra-low power triaxial accelerometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35257800-2b2d-4e27-9148-20e80d37bff6</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>OSO-SWAT-A1-05:_0603MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="CAP_CERAMIC_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84e20dd9-7a59-4ee0-af6a-8054532068da</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0603MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="CAP_CERAMIC_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38392bb4-96a9-482d-92ee-6adc3f09bbde</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0603MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="CAP_CERAMIC_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec6d7a3d-5410-4f72-b7d4-ad0f7cf78205</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0603MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="CAP_CERAMIC_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb5f15f4-3578-463e-aa83-16400bd656e0</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0603MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="CAP_CERAMIC_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43fd17fe-f2d0-49e4-9eda-6785de93a650</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0603MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="CAP_CERAMIC_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c476d02d-9e7e-4c2c-8311-7b708dff96c1</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10pf</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="CAP_CERAMIC_0402MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60626282-d5d6-4afe-9c1d-532f6102f98b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10pf</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="CAP_CERAMIC_0402MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48a7ad90-190e-481a-a3cd-2f015f34ff25</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adb223f1-3125-45df-a6ac-3063ec508d78</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9ab26ac-943b-4466-92b9-adbb7ae5e800</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>158a5cdc-d2b2-4519-9b3f-086de018686e</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>OSO-SWAT-A1-05:_0603MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>515fbf27-aad7-48a2-b338-38718dae80fb</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cad0c3e2-8282-43ae-91ef-efaf8b6b6331</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b116eaaf-af94-42a2-bad3-28f2e3bd20e2</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>2.2uF</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2acf8efc-f5f5-4182-be64-86eb84e2b931</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c9c9f4b-74aa-4384-82a6-296848abdf13</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57ad3670-f147-49bf-81d4-cfd652c9099c</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>2.2uF</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95a31ea7-e54c-471f-93c9-8a3f0cb572f3</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f368767f-344b-4a5c-8a32-c6bec9587083</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Left LED</value>
+      <footprint>KevinsFootprints:LED_APHD1608LZGCK</footprint>
+      <fields>
+        <field name="Part">APHD1608LZGCK (GREEN)</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Part" value="APHD1608LZGCK (GREEN)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9245d299-5fad-4e1d-97ad-d61ccffd9a35</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>Right LED</value>
+      <footprint>KevinsFootprints:LED_APHD1608LZGCK</footprint>
+      <fields>
+        <field name="Part">APHD1608LZGCK (GREEN)</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Part" value="APHD1608LZGCK (GREEN)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0606396b-3257-4d82-8921-7febf0f1d186</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>Left LED 2</value>
+      <footprint>KevinsFootprints:LED_APHD1608LZGCK</footprint>
+      <fields>
+        <field name="Part">APHD1608LVBC/D (BLUE)</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Part" value="APHD1608LVBC/D (BLUE)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7efbf55-75cc-4fa8-a20d-281bed9bc9f1</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>Right LED 2</value>
+      <footprint>KevinsFootprints:LED_APHD1608LZGCK</footprint>
+      <fields>
+        <field name="Part">APHD1608LVBC/D (BLUE)</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Part" value="APHD1608LVBC/D (BLUE)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, small symbol"/>
+      <property name="ki_keywords" value="LED diode light-emitting-diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71b1a730-e042-465d-ba0a-215c47cb09f7</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>PAM8904EGPR</value>
+      <footprint>KevinsFootprints:PAM8904EGPR</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/PAM8904E.pdf</datasheet>
+      <fields>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">PAM8904EGPR</field>
+        <field name="Mouser2 Part Number">621-PAM8904EGPR</field>
+        <field name="Mouser2 Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=621-PAM8904EGPR</field>
+      </fields>
+      <libsource lib="KevinsSymbols" part="PAM8904EGPR" description="Audio Amplifiers Audio High Volt"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser2 Part Number" value="621-PAM8904EGPR"/>
+      <property name="Mouser2 Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=621-PAM8904EGPR"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="PAM8904EGPR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Audio Amplifiers Audio High Volt"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>683e6e7e-718f-492c-ad44-a684a403bccf</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>TPS610985DSER</value>
+      <footprint>KevinsFootprints:TPS610985DSER</footprint>
+      <datasheet>https://pdf1.alldatasheet.net/datasheet-pdf/view/807892/TI1/TPS610985DSER.html</datasheet>
+      <fields>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS610985DSER</field>
+      </fields>
+      <libsource lib="KevinsSymbols" part="TPS610985DSER" description="Switching Voltage Regulators Low input voltage, 3-V output voltage, synchronous boost converter with integrated load switch 6-WSON -40 to 85"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser2 Part Number" value=""/>
+      <property name="Mouser2 Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPS610985DSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Switching Voltage Regulators Low input voltage, 3-V output voltage, synchronous boost converter with integrated load switch 6-WSON -40 to 85"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ce21d1f-f9ce-46d7-8f2d-a761dcf774e4</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TC2030-IDC</value>
+      <footprint>KevinsFootprints:TC2030IDC</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/62bc384e093448baaaa63dbd0b9d8707.pdf</datasheet>
+      <fields>
+        <field name="Height">19</field>
+        <field name="Manufacturer_Name">Tag Connect</field>
+        <field name="Manufacturer_Part_Number">TC2030-IDC</field>
+      </fields>
+      <libsource lib="KevinsSymbols" part="TC2030-IDC" description="CABLE ADAPTER 6 POS"/>
+      <property name="Height" value="19"/>
+      <property name="Mouser2 Part Number" value=""/>
+      <property name="Mouser2 Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Tag Connect"/>
+      <property name="Manufacturer_Part_Number" value="TC2030-IDC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="CABLE ADAPTER 6 POS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34e2e3b1-f631-4bce-be37-7017533a3ca5</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>OSO-SWAT-A1-05:MICROBUILDER__0805MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="MICROBUILDER_INDUCTOR_0805MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ee1764f-5b94-4ab8-a756-8d8112db632c</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>4.7uH</value>
+      <footprint>KevinsFootprints:L_0805_2012Metric</footprint>
+      <fields>
+        <field name="Part">Wurth 74438323047</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Part" value="Wurth 74438323047"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ce21820-9a6b-4f97-b9e3-16b4e8e8dff7</tstamps>
+    </comp>
+    <comp ref="O1">
+      <value>~</value>
+      <footprint>KevinsFootprints:CASIO-F91W-OUTLINE-TAG-CONNECT</footprint>
+      <libsource lib="KevinsSymbols" part="SENSOR-WATCH-TAG-CONNECT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4186b155-6c8f-42c9-afa1-9dcd8aa9916b b034534d-05ae-4193-be52-f85a476f793f 2583b6d1-0b27-412a-b4e4-0f7da957d2e2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="RESISTOR_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7f3a572-e26b-4be4-8826-53a3934fc5f9</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="RESISTOR_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>705e4b31-177a-4343-afe4-0ab5da9c5469</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="RESISTOR_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3563356e-f843-4bf8-a874-48dbfebf8899</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="RESISTOR_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>722fc577-2aa3-4832-812f-40e7c4265d28</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>300</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <fields>
+        <field name="Part">Vishay Dale CRCW0402300RJNED</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Part" value="Vishay Dale CRCW0402300RJNED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92c8dfc6-8d0f-4fde-ab74-6057db4f8166</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="RESISTOR_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8990aa77-aee3-4c9d-b21a-e937d4ce1d39</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="RESISTOR_0603MP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c10e0f4-2795-4533-8171-36f948d07850</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <fields>
+        <field name="Part">Vishay Dale CRCW0402300RJNED</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Part" value="Vishay Dale CRCW0402300RJNED"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>132b7c0c-6e9b-4c72-9ba2-170895ab5557</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1m</value>
+      <footprint>OSO-SWAT-A1-05:_0402MP</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfcff686-4f9e-457c-9945-524a4554f190</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>RESET</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be95cf8b-f355-4b93-ba5e-8f2972350190</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>SWDIO</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3be497fb-ecbb-405e-a592-5706f477cba0</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>SWCLK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f15a7908-a75b-47be-8eb3-c8538837f80d</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>3V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>733c4f28-b692-4d9b-970a-2764650372c2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATSAML22J18A-MUT</value>
+      <footprint>OSO-SWAT-A1-05:QFN64_9X9MC_MCH</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="ATSAML22J18A-MUT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>772a0942-1a57-4107-acd0-cc66f2792ace 13417890-2565-4188-a99f-7f7c302cd09e</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>32.768</value>
+      <footprint>OSO-SWAT-A1-05:XTAL3215</footprint>
+      <libsource lib="OSO-SWAT-A1-05-eagle-import" part="XTAL-3.2X1.5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OSO-SWAT-A1-05.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85337305-874e-43d5-8dc8-5edd2f924342</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KevinsSymbols" part="BMA400">
+      <description>Ultra-low power triaxial accelerometer</description>
+      <docs>https://componentsearchengine.com//BMA400.pdf</docs>
+      <fields>
+        <field name="Reference">AC</field>
+        <field name="Value">BMA400</field>
+        <field name="Footprint">KevinsFootprints:BOSCH_LGA-12</field>
+        <field name="Datasheet">https://componentsearchengine.com//BMA400.pdf</field>
+        <field name="Mouser2 Part Number">262-BMA400</field>
+        <field name="Mouser2 Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=262-BMA400</field>
+        <field name="Manufacturer_Name">BOSCH</field>
+        <field name="Manufacturer_Part_Number">BMA400</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO" type="passive"/>
+        <pin num="2" name="SDX" type="passive"/>
+        <pin num="3" name="VDDIO" type="passive"/>
+        <pin num="4" name="NC_1" type="passive"/>
+        <pin num="5" name="INT1" type="passive"/>
+        <pin num="6" name="INT2" type="passive"/>
+        <pin num="7" name="VDD" type="passive"/>
+        <pin num="8" name="GNDIO" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="CSB" type="passive"/>
+        <pin num="11" name="NC_2" type="passive"/>
+        <pin num="12" name="SCX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KevinsSymbols" part="PAM8904EGPR">
+      <description>Audio Amplifiers Audio High Volt</description>
+      <docs>https://www.diodes.com/assets/Datasheets/PAM8904E.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PAM8904EGPR</field>
+        <field name="Footprint">KevinsFootprints:PAM8904EGPR</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/PAM8904E.pdf</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser2 Part Number">621-PAM8904EGPR</field>
+        <field name="Mouser2 Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=621-PAM8904EGPR</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">PAM8904EGPR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN1" type="passive"/>
+        <pin num="2" name="EN2" type="passive"/>
+        <pin num="3" name="DIN" type="passive"/>
+        <pin num="4" name="CN1" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VO2" type="passive"/>
+        <pin num="7" name="VO1" type="passive"/>
+        <pin num="8" name="CN2" type="passive"/>
+        <pin num="9" name="CP1" type="passive"/>
+        <pin num="10" name="VOUT" type="passive"/>
+        <pin num="11" name="CP2" type="passive"/>
+        <pin num="12" name="VIN" type="passive"/>
+        <pin num="13" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KevinsSymbols" part="SENSOR-WATCH-TAG-CONNECT">
+      <fields>
+        <field name="Reference">O</field>
+        <field name="Footprint">KevinsFootprints:CASIO-F91W-OUTLINE-TAG-CONNECT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="11" type="input"/>
+        <pin num="12" name="12" type="input"/>
+        <pin num="13" name="13" type="input"/>
+        <pin num="14" name="14" type="input"/>
+        <pin num="15" name="15" type="input"/>
+        <pin num="16" name="16" type="input"/>
+        <pin num="17" name="17" type="input"/>
+        <pin num="18" name="18" type="input"/>
+        <pin num="19" name="19" type="input"/>
+        <pin num="20" name="20" type="input"/>
+        <pin num="21" name="21" type="input"/>
+        <pin num="22" name="22" type="input"/>
+        <pin num="23" name="23" type="input"/>
+        <pin num="24" name="24" type="input"/>
+        <pin num="25" name="25" type="input"/>
+        <pin num="26" name="26" type="input"/>
+        <pin num="27" name="27" type="input"/>
+        <pin num="ALARM" name="ALARM" type="bidirectional"/>
+        <pin num="BUZZER" name="BUZZER" type="bidirectional"/>
+        <pin num="GND1" name="GND1" type="bidirectional"/>
+        <pin num="GND2" name="GND2" type="bidirectional"/>
+        <pin num="LIGHT" name="LIGHT" type="bidirectional"/>
+        <pin num="MODE" name="MODE" type="bidirectional"/>
+        <pin num="VCC1" name="VCC1" type="bidirectional"/>
+        <pin num="VCC2" name="VCC2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="KevinsSymbols" part="TC2030-IDC">
+      <description>CABLE ADAPTER 6 POS</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/62bc384e093448baaaa63dbd0b9d8707.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TC2030-IDC</field>
+        <field name="Footprint">KevinsFootprints:TC2030IDC</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/62bc384e093448baaaa63dbd0b9d8707.pdf</field>
+        <field name="Height">19</field>
+        <field name="Manufacturer_Name">Tag Connect</field>
+        <field name="Manufacturer_Part_Number">TC2030-IDC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KevinsSymbols" part="TPS610985DSER">
+      <description>Switching Voltage Regulators Low input voltage, 3-V output voltage, synchronous boost converter with integrated load switch 6-WSON -40 to 85</description>
+      <docs>https://pdf1.alldatasheet.net/datasheet-pdf/view/807892/TI1/TPS610985DSER.html</docs>
+      <fields>
+        <field name="Reference">IC2</field>
+        <field name="Value">TPS610985DSER</field>
+        <field name="Footprint">KevinsFootprints:TPS610985DSER</field>
+        <field name="Datasheet">https://pdf1.alldatasheet.net/datasheet-pdf/view/807892/TI1/TPS610985DSER.html</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS610985DSER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VMAIN" type="passive"/>
+        <pin num="2" name="SW" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+        <pin num="4" name="MODE" type="passive"/>
+        <pin num="5" name="VSUB" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OSO-SWAT-A1-05-eagle-import" part="ATSAML22J18A-MUT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">OSO-SWAT-A1-05:QFN64_9X9MC_MCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00/XIN32/EXTINT[0]/SERCOM1.0" type="bidirectional"/>
+        <pin num="2" name="PA01/XOUT32/EXTINT[1]/SERCOM1.1" type="bidirectional"/>
+        <pin num="3" name="PA02/I2/AIN0" type="bidirectional"/>
+        <pin num="4" name="PA03/I3/AIN1" type="bidirectional"/>
+        <pin num="5" name="PB04/I4/AIN12" type="bidirectional"/>
+        <pin num="6" name="PB05/I5/AIN13" type="bidirectional"/>
+        <pin num="7" name="GNDANA" type="passive"/>
+        <pin num="8" name="VDDANA" type="power_in"/>
+        <pin num="9" name="PB06/I6/AIN14/SLCD[0]" type="bidirectional"/>
+        <pin num="10" name="PB07/I7/AIN15/SLCD[1]" type="bidirectional"/>
+        <pin num="11" name="PB08/I8/AIN2/SERCOM3.0/SLCD[2]" type="bidirectional"/>
+        <pin num="12" name="PB09/I9/AIN3/SERCOM3.1/SLCD[3]" type="bidirectional"/>
+        <pin num="13" name="PA04/I4/AIN4/SERCOM0.0/SLCD[4]" type="bidirectional"/>
+        <pin num="14" name="PA05/I5/AIN5/SERCOM0.1/SLCD[5]" type="bidirectional"/>
+        <pin num="15" name="PA06/I6/AIN6/SERCOM0.2/SLCD[6]" type="bidirectional"/>
+        <pin num="16" name="PA07/I7/AIN7/SERCOM0.3/SLCD[7]" type="bidirectional"/>
+        <pin num="17" name="PA08/NMI/SERCOM0.0/SLCD[11]" type="bidirectional"/>
+        <pin num="18" name="PA09/I9/SERCOM0.1/SLCD[12]" type="bidirectional"/>
+        <pin num="19" name="PA10/I10/SERCOM0.2/SLCD[13]" type="bidirectional"/>
+        <pin num="20" name="PA11/I11/SERCOM0.3/SLCD[14]" type="bidirectional"/>
+        <pin num="21" name="VDDIO" type="power_in"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="VLCD" type="passive"/>
+        <pin num="24" name="PB11/I11/SERCOM3.3/SLCD[21]" type="bidirectional"/>
+        <pin num="25" name="PB12/I12/SERCOM3.0/SLCD[22]" type="bidirectional"/>
+        <pin num="26" name="PB13/SERCOM3.1/SLCD[23]" type="bidirectional"/>
+        <pin num="27" name="PB14/I14/SERCOM3.2/SLCD[24]" type="bidirectional"/>
+        <pin num="28" name="PB15/I15/SERCOM3.3/SLCD[25]" type="bidirectional"/>
+        <pin num="29" name="PA12/I12/SERCOM3.0(I2C)/SLCD[28]" type="bidirectional"/>
+        <pin num="30" name="PA13/I13/SERCOM3.1(I2C)/SLCD[29]" type="bidirectional"/>
+        <pin num="31" name="PA14/I14/SERCOM3.2/SLCD[30]" type="bidirectional"/>
+        <pin num="32" name="PA15/I15/SERCOM3.3/SLCD[31]" type="bidirectional"/>
+        <pin num="33" name="GND_1" type="passive"/>
+        <pin num="34" name="VDDIO_1" type="power_in"/>
+        <pin num="35" name="PA16/I0/SERCOM1+2.0/SLCD[32]" type="bidirectional"/>
+        <pin num="36" name="PA17/I1/SERCOM1+2.1/SLCD[33]" type="bidirectional"/>
+        <pin num="37" name="PA18/I2/SERCOM1+2.2/SLCD[34]" type="bidirectional"/>
+        <pin num="38" name="PA19/I3/SERCOM1+2.3/SLCD[35]" type="bidirectional"/>
+        <pin num="39" name="PB16/I0/SLCD[42]" type="bidirectional"/>
+        <pin num="40" name="PB17/I1/SLCD[43]" type="bidirectional"/>
+        <pin num="41" name="PA20/I4/SERCOM0.0+2.2/SLCD[48]" type="bidirectional"/>
+        <pin num="42" name="PA21/I5/SERCOM0.1+2.3/SLCD[49]" type="bidirectional"/>
+        <pin num="43" name="PA22/I6/SERCOM0.2+2.0(I2C)/SLCD[50]" type="bidirectional"/>
+        <pin num="44" name="PA23/I7/SERCOM0.3+2.1(I2C)/SLCD[51]" type="bidirectional"/>
+        <pin num="45" name="PA24/I12/SERCOM2.2/USB-" type="bidirectional"/>
+        <pin num="46" name="PA25/I13/SERCOM2.3/USB+" type="bidirectional"/>
+        <pin num="47" name="GND_2" type="passive"/>
+        <pin num="48" name="VDDIO_2" type="power_in"/>
+        <pin num="49" name="PB22/I6/SERCOM0.2" type="bidirectional"/>
+        <pin num="50" name="PB23/I7/SERCOM0.3" type="bidirectional"/>
+        <pin num="51" name="PA27/I15" type="bidirectional"/>
+        <pin num="52" name="~{RESET}" type="bidirectional"/>
+        <pin num="53" name="VDDCORE" type="power_in"/>
+        <pin num="54" name="GND_3" type="passive"/>
+        <pin num="55" name="VDDOUT" type="output"/>
+        <pin num="56" name="VDDIO_3" type="power_in"/>
+        <pin num="57" name="PA30/I10/SERCOM1.2/SWCLK" type="bidirectional"/>
+        <pin num="58" name="PA31/I11/SERCOM1.3/SWDIO" type="bidirectional"/>
+        <pin num="59" name="PB30/I14/SERCOM1.0" type="bidirectional"/>
+        <pin num="60" name="PB31/I15/SERCOM1.1" type="bidirectional"/>
+        <pin num="61" name="PB00/I0/AIN8/SERCOM3.2" type="bidirectional"/>
+        <pin num="62" name="PB01/I1/AIN9/SERCOM3.3" type="bidirectional"/>
+        <pin num="63" name="PB02/I2/AIN10/SERCOM3.0" type="bidirectional"/>
+        <pin num="64" name="PB03/I3/AIN11/SERCOM3.1" type="bidirectional"/>
+        <pin num="65" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OSO-SWAT-A1-05-eagle-import" part="CAP_CERAMIC_0402MP">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">OSO-SWAT-A1-05:_0402MP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OSO-SWAT-A1-05-eagle-import" part="CAP_CERAMIC_0603MP">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">OSO-SWAT-A1-05:_0603MP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OSO-SWAT-A1-05-eagle-import" part="MICROBUILDER_INDUCTOR_0805MP">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Footprint">OSO-SWAT-A1-05:MICROBUILDER__0805MP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OSO-SWAT-A1-05-eagle-import" part="RESISTOR_0603MP">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">OSO-SWAT-A1-05:_0603MP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OSO-SWAT-A1-05-eagle-import" part="XTAL-3.2X1.5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Footprint">OSO-SWAT-A1-05:XTAL3215</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="P$1" type="bidirectional"/>
+        <pin num="P$2" name="P$2" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="KevinsSymbols">
+      <uri>/home/kevin/.local/share/kicad/7.0/symbols/KevinsSymbols.kicad_sym</uri>
+    </library>
+    <library logical="OSO-SWAT-A1-05-eagle-import">
+      <uri>/home/kevin/KicadProjects/SensorWatch/OSO-SWAT-A1-05-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V0">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC2" pin="1" pinfunction="VMAIN" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U1" pin="34" pinfunction="VDDIO_1" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="VDDIO_2" pintype="power_in"/>
+      <node ref="U1" pin="56" pinfunction="VDDIO_3" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="VDDANA" pintype="power_in"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="O1" pin="VCC1" pinfunction="VCC1" pintype="bidirectional"/>
+      <node ref="O1" pin="VCC2" pinfunction="VCC2" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/A0_ALT">
+      <node ref="U1" pin="4" pinfunction="PA03/I3/AIN1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/ALARM">
+      <node ref="O1" pin="ALARM" pinfunction="ALARM" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="PA02/I2/AIN0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/BMA400_CS">
+      <node ref="AC1" pin="10" pinfunction="CSB" pintype="passive"/>
+      <node ref="U1" pin="64" pinfunction="PB03/I3/AIN11/SERCOM3.1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/BMA400_INT">
+      <node ref="AC1" pin="5" pinfunction="INT1" pintype="passive"/>
+      <node ref="U1" pin="63" pinfunction="PB02/I2/AIN10/SERCOM3.0" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/BUZZER">
+      <node ref="IC1" pin="7" pinfunction="VO1" pintype="passive"/>
+      <node ref="O1" pin="BUZZER" pinfunction="BUZZER" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/BUZZER_CONTROL">
+      <node ref="IC1" pin="3" pinfunction="DIN" pintype="passive"/>
+      <node ref="U1" pin="51" pinfunction="PA27/I15" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/BUZZER_EN1">
+      <node ref="IC1" pin="1" pinfunction="EN1" pintype="passive"/>
+      <node ref="U1" pin="61" pinfunction="PB00/I0/AIN8/SERCOM3.2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/BUZZER_EN2">
+      <node ref="IC1" pin="2" pinfunction="EN2" pintype="passive"/>
+      <node ref="U1" pin="62" pinfunction="PB01/I1/AIN9/SERCOM3.3" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/COM0">
+      <node ref="O1" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="PB06/I6/AIN14/SLCD[0]" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/COM1">
+      <node ref="O1" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="U1" pin="10" pinfunction="PB07/I7/AIN15/SLCD[1]" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/COM2">
+      <node ref="O1" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="U1" pin="11" pinfunction="PB08/I8/AIN2/SERCOM3.0/SLCD[2]" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/ENABLE_SECONDARY_POWER">
+      <node ref="IC2" pin="4" pinfunction="MODE" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/LEFT_LED">
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="PA21/I5/SERCOM0.1+2.3/SLCD[49]" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/LEFT_LED_2">
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="PA22/I6/SERCOM0.2+2.0(I2C)/SLCD[50]" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/LIGHT">
+      <node ref="O1" pin="LIGHT" pinfunction="LIGHT" pintype="bidirectional"/>
+      <node ref="U1" pin="46" pinfunction="PA25/I13/SERCOM2.3/USB+" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/MISO">
+      <node ref="AC1" pin="1" pinfunction="SDO" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="PA20/I4/SERCOM0.0+2.2/SLCD[48]" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/MODE">
+      <node ref="O1" pin="MODE" pinfunction="MODE" pintype="bidirectional"/>
+      <node ref="U1" pin="45" pinfunction="PA24/I12/SERCOM2.2/USB-" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/MOSI">
+      <node ref="AC1" pin="2" pinfunction="SDX" pintype="passive"/>
+      <node ref="U1" pin="49" pinfunction="PB22/I6/SERCOM0.2" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/RIGHT_LED">
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="50" pinfunction="PB23/I7/SERCOM0.3" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/RIGHT_LED_2">
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="59" pinfunction="PB30/I14/SERCOM1.0" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/SCK">
+      <node ref="AC1" pin="12" pinfunction="SCX" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="PA23/I7/SERCOM0.3+2.1(I2C)/SLCD[51]" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/SEC_POWER">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="VSUB" pintype="passive"/>
+    </net>
+    <net code="25" name="/SEG0">
+      <node ref="O1" pin="27" pinfunction="27" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="PB09/I9/AIN3/SERCOM3.1/SLCD[3]" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/SEG1">
+      <node ref="O1" pin="26" pinfunction="26" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="PA04/I4/AIN4/SERCOM0.0/SLCD[4]" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/SEG2">
+      <node ref="O1" pin="25" pinfunction="25" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="PA05/I5/AIN5/SERCOM0.1/SLCD[5]" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/SEG3">
+      <node ref="O1" pin="24" pinfunction="24" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="PA06/I6/AIN6/SERCOM0.2/SLCD[6]" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/SEG4">
+      <node ref="O1" pin="23" pinfunction="23" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="PA07/I7/AIN7/SERCOM0.3/SLCD[7]" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/SEG5">
+      <node ref="O1" pin="22" pinfunction="22" pintype="input"/>
+      <node ref="U1" pin="17" pinfunction="PA08/NMI/SERCOM0.0/SLCD[11]" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/SEG6">
+      <node ref="O1" pin="21" pinfunction="21" pintype="input"/>
+      <node ref="U1" pin="18" pinfunction="PA09/I9/SERCOM0.1/SLCD[12]" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/SEG7">
+      <node ref="O1" pin="20" pinfunction="20" pintype="input"/>
+      <node ref="U1" pin="19" pinfunction="PA10/I10/SERCOM0.2/SLCD[13]" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/SEG8">
+      <node ref="O1" pin="19" pinfunction="19" pintype="input"/>
+      <node ref="U1" pin="20" pinfunction="PA11/I11/SERCOM0.3/SLCD[14]" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/SEG9">
+      <node ref="O1" pin="18" pinfunction="18" pintype="input"/>
+      <node ref="U1" pin="24" pinfunction="PB11/I11/SERCOM3.3/SLCD[21]" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/SEG10">
+      <node ref="O1" pin="17" pinfunction="17" pintype="input"/>
+      <node ref="U1" pin="25" pinfunction="PB12/I12/SERCOM3.0/SLCD[22]" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/SEG11">
+      <node ref="O1" pin="16" pinfunction="16" pintype="input"/>
+      <node ref="U1" pin="26" pinfunction="PB13/SERCOM3.1/SLCD[23]" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/SEG12">
+      <node ref="O1" pin="15" pinfunction="15" pintype="input"/>
+      <node ref="U1" pin="27" pinfunction="PB14/I14/SERCOM3.2/SLCD[24]" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/SEG13">
+      <node ref="O1" pin="14" pinfunction="14" pintype="input"/>
+      <node ref="U1" pin="28" pinfunction="PB15/I15/SERCOM3.3/SLCD[25]" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/SEG14">
+      <node ref="O1" pin="13" pinfunction="13" pintype="input"/>
+      <node ref="U1" pin="29" pinfunction="PA12/I12/SERCOM3.0(I2C)/SLCD[28]" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/SEG15">
+      <node ref="O1" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="U1" pin="30" pinfunction="PA13/I13/SERCOM3.1(I2C)/SLCD[29]" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/SEG16">
+      <node ref="O1" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="U1" pin="31" pinfunction="PA14/I14/SERCOM3.2/SLCD[30]" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/SEG17">
+      <node ref="O1" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="U1" pin="32" pinfunction="PA15/I15/SERCOM3.3/SLCD[31]" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/SEG18">
+      <node ref="O1" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="U1" pin="35" pinfunction="PA16/I0/SERCOM1+2.0/SLCD[32]" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/SEG19">
+      <node ref="O1" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="U1" pin="36" pinfunction="PA17/I1/SERCOM1+2.1/SLCD[33]" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/SEG20">
+      <node ref="O1" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="U1" pin="37" pinfunction="PA18/I2/SERCOM1+2.2/SLCD[34]" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/SEG21">
+      <node ref="O1" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="U1" pin="38" pinfunction="PA19/I3/SERCOM1+2.3/SLCD[35]" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/SEG22">
+      <node ref="O1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U1" pin="39" pinfunction="PB16/I0/SLCD[42]" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/SEG23">
+      <node ref="O1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U1" pin="40" pinfunction="PB17/I1/SLCD[43]" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/SWCLK">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="57" pinfunction="PA30/I10/SERCOM1.2/SWCLK" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/SWDIO">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="58" pinfunction="PA31/I11/SERCOM1.3/SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/XIN32">
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PA00/XIN32/EXTINT[0]/SERCOM1.0" pintype="bidirectional"/>
+      <node ref="X1" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/XOUT32">
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PA01/XOUT32/EXTINT[1]/SERCOM1.1" pintype="bidirectional"/>
+      <node ref="X1" pin="P$2" pinfunction="P$2" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/~{RESET}">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="52" pinfunction="~{RESET}" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="GND">
+      <node ref="AC1" pin="8" pinfunction="GNDIO" pintype="passive"/>
+      <node ref="AC1" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="13" pinfunction="EP" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="IC2" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="O1" pin="GND1" pinfunction="GND1" pintype="bidirectional"/>
+      <node ref="O1" pin="GND2" pinfunction="GND2" pintype="bidirectional"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U1" pin="65" pinfunction="EPAD" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GNDANA" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(AC1-VDD)">
+      <node ref="AC1" pin="3" pinfunction="VDDIO" pintype="passive"/>
+      <node ref="AC1" pin="7" pinfunction="VDD" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D5-K)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D6-K)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(IC1-CN1)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="CN1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(IC1-CN2)">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="CN2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(IC1-CP1)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="CP1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(IC1-CP2)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="11" pinfunction="CP2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(IC1-VIN)">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="VIN" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(IC1-VOUT)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="10" pinfunction="VOUT" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(IC2-SW)">
+      <node ref="IC2" pin="2" pinfunction="SW" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(IC2-VIN)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="VIN" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(U1B-VDDCORE)">
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="VDDCORE" pintype="power_in"/>
+    </net>
+    <net code="69" name="Net-(U1B-VDDOUT)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="55" pinfunction="VDDOUT" pintype="output"/>
+    </net>
+    <net code="70" name="Net-(U1B-VLCD)">
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="VLCD" pintype="passive"/>
+    </net>
+    <net code="71" name="unconnected-(AC1-INT2-Pad6)">
+      <node ref="AC1" pin="6" pinfunction="INT2" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(AC1-NC_1-Pad4)">
+      <node ref="AC1" pin="4" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(AC1-NC_2-Pad11)">
+      <node ref="AC1" pin="11" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(IC1-VO2-Pad6)">
+      <node ref="IC1" pin="6" pinfunction="VO2" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1A-PB04{slash}I4{slash}AIN12-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PB04/I4/AIN12" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="unconnected-(U1A-PB05{slash}I5{slash}AIN13-Pad6)">
+      <node ref="U1" pin="6" pinfunction="PB05/I5/AIN13" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(U1A-PB31{slash}I15{slash}SERCOM1.1-Pad60)">
+      <node ref="U1" pin="60" pinfunction="PB31/I15/SERCOM1.1" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

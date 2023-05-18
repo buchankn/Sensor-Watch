@@ -1,0 +1,49 @@
+(footprint "_0402MP" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>0402 MicroPitch<p>")
+  (fp_text reference "REF**" (at -0.635 -0.4763) (layer "F.SilkS")
+      (effects (font (size 0.499872 0.499872) (thickness 0.109728)) (justify left bottom))
+    (tstamp 540e0c06-b40f-4e29-8377-e31ffd986f41)
+  )
+  (fp_text value "_0402MP" (at -0.635 0.7938) (layer "F.Fab")
+      (effects (font (size 0.36576 0.36576) (thickness 0.04064)) (justify left bottom))
+    (tstamp c506d3c4-a683-4778-833f-ceb5c57ad246)
+  )
+  (fp_poly
+    (pts
+      (xy -0.1 0.2)
+      (xy 0.1 0.2)
+      (xy 0.1 -0.2)
+      (xy -0.1 -0.2)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Adhes") (tstamp 918322cc-6873-4100-ae09-719aa9d728dd))
+  (fp_line (start 0 -0.127) (end 0 0.127)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp c6be29b3-eb60-4cc1-8669-29d42311371c))
+  (fp_line (start -0.245 -0.174) (end 0.245 -0.174)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp b44fa92f-735b-4359-a4ab-5a77a030ff80))
+  (fp_line (start 0.245 0.174) (end -0.245 0.174)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 7ed9225f-11f5-4f6b-bf95-cf50280fcb57))
+  (fp_poly
+    (pts
+      (xy -0.5 0.25)
+      (xy -0.254 0.25)
+      (xy -0.254 -0.25)
+      (xy -0.5 -0.25)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp a49a48dd-4097-4339-b5d1-a79ebdcdc8a8))
+  (fp_poly
+    (pts
+      (xy 0.2588 0.25)
+      (xy 0.5 0.25)
+      (xy 0.5 -0.25)
+      (xy 0.2588 -0.25)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 9499aa3a-2118-46f4-9189-f9868a847fb4))
+  (pad "1" smd rect (at -0.508 0) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0635) (thermal_bridge_angle 45) (tstamp 7f83d36b-835f-4aef-a139-2e81c1dde3ac))
+  (pad "2" smd rect (at 0.508 0) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0635) (thermal_bridge_angle 45) (tstamp 745e6976-9fe0-42ee-9ebb-7e26c735ae54))
+)

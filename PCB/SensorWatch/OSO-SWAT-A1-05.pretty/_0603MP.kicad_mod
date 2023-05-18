@@ -1,0 +1,49 @@
+(footprint "_0603MP" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>0603 MicroPitch</b>")
+  (fp_text reference "REF**" (at -0.9525 -0.635) (layer "F.SilkS")
+      (effects (font (size 0.666496 0.666496) (thickness 0.146304)) (justify left bottom))
+    (tstamp 223a2168-bfef-45fb-b7b4-5e84f7616e15)
+  )
+  (fp_text value "_0603MP" (at -0.9525 0.9525) (layer "F.Fab")
+      (effects (font (size 0.36576 0.36576) (thickness 0.04064)) (justify left bottom))
+    (tstamp 8d5ef022-f762-49de-9531-e1ecca52b1dc)
+  )
+  (fp_poly
+    (pts
+      (xy -0.1999 0.25)
+      (xy 0.1999 0.25)
+      (xy 0.1999 -0.25)
+      (xy -0.1999 -0.25)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Adhes") (tstamp 288d175e-6b76-4cfc-94dd-ca018063aeb5))
+  (fp_line (start 0 -0.254) (end 0 0.254)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 484c3443-9052-40b6-abda-bbd7e4a442ad))
+  (fp_line (start -0.432 0.306) (end 0.432 0.306)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 9c032eb2-e3e9-4c21-b035-bef96cbab82c))
+  (fp_line (start 0.432 -0.306) (end -0.432 -0.306)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 6cf42529-e39a-488d-86ba-5c50967e30e1))
+  (fp_poly
+    (pts
+      (xy -0.8 0.4)
+      (xy -0.4318 0.4)
+      (xy -0.4318 -0.4)
+      (xy -0.8 -0.4)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 13e6fe11-1e9f-4a4c-b7c1-43767aaed061))
+  (fp_poly
+    (pts
+      (xy 0.4318 0.4)
+      (xy 0.8 0.4)
+      (xy 0.8 -0.4)
+      (xy 0.4318 -0.4)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 5302fa53-b782-40c9-9c86-6906207a815c))
+  (pad "1" smd rect (at -0.762 0) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0635) (thermal_bridge_angle 45) (tstamp f49cfc89-aa2b-4cc8-8f8a-d1a11e96b21e))
+  (pad "2" smd rect (at 0.762 0) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0635) (thermal_bridge_angle 45) (tstamp 1d9054ce-fe37-4a01-9b3c-c50cafeaf15f))
+)
