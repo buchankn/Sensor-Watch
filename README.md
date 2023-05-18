@@ -1,6 +1,24 @@
 The Sensor Watch
 ================
 
+This is a fork of Joey Castillo's Sensor-Watch. My changes to this fork is a work-in-progress.
+
+My main goals are to:
+
+* Add led 'side-lighting' to the right side of the LCD as well as the left
+* Add a BMA400 accelerometer to the board for step counting, and perhaps experiment with wake-on-arm-lift, etc
+* Add PAM8904E for a louder (and adjustable) piezo driver
+
+I replaced the 2 color led side light with 2 individual 0603 LEDs, so I could pick and choose each LED. Will it be better than the bi-color? We'll see... I chose not to go with an RGB LED, because I wanted LEDs on both sides of the display, and I couldn't spare 6 gpio for them. And I didn't want to connect multiple LEDs to one gpio, because it could exceed the max current for the gpio pin.
+
+I also added a TPS610985 to the board, to ensure that the board always gets a stable 3V supply, and the voltage supply to the LEDs doesn't dip below the LED forward voltage. The GPIO pins have a higher rated current at 3V, so this also ensures that turning on the LEDs doesn't exceed the max GPIO current. Using a boost converter will decrease battery life, but it's still to be determined by how much. The TPS610985 is pretty amazingly efficient, so I'm hoping to still get decent battery life with it.
+
+The PAM8904E should make the buzzer on the watch louder, and the voltage to the buzzer is adjustable by 3 levels, so there's a sort of volume control with it.
+
+Kicad design files to be uploaded shortly, and I'll update the code in this repository to match all the changes/additions I made...
+
+Below is the original readme for Joey Castillo's sensor watch (see https://github.com/joeycastillo/Sensor-Watch, and https://www.sensorwatch.net/):
+
 The [Sensor Watch](https://www.sensorwatch.net) is a board replacement for the classic Casio F-91W wristwatch. It is powered by a Microchip SAM L22 microcontroller with built-in segment LCD controller. You can write your own programs for the watch using the provided watch library, program the watch over USB using the built-in UF2 bootloader, and then install the board in your existing watch case to run your own software on your wrist.
 
 ![image](/images/sensor-watch.jpg)
