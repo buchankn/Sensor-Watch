@@ -21,6 +21,14 @@ I added Tag-Connect pads to make programming the board easier, without having to
 
 Kicad design files to be uploaded shortly, and I'll update the code in this repository to match all the changes/additions I made...
 
+Prototype boards have been ordered from PCBWay! Crossing my fingers that I didn't miss anything :)
+
+![image](/images/F91W_PCB.png)
+
+![image](/images/F91W_PCB_3d_Front.jpg)
+
+![image](/images/F91W_PCB_3d_Back.jpg)
+
 Below is the original readme for Joey Castillo's sensor watch (see https://github.com/joeycastillo/Sensor-Watch, and https://www.sensorwatch.net/):
 
 The [Sensor Watch](https://www.sensorwatch.net) is a board replacement for the classic Casio F-91W wristwatch. It is powered by a Microchip SAM L22 microcontroller with built-in segment LCD controller. You can write your own programs for the watch using the provided watch library, program the watch over USB using the built-in UF2 bootloader, and then install the board in your existing watch case to run your own software on your wrist.
