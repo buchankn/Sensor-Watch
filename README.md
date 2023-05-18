@@ -1,5 +1,5 @@
-The Sensor Watch
-================
+Casio F-91W Step Counter
+========================
 
 This is a fork of Joey Castillo's Sensor-Watch. My changes to this fork is a work-in-progress.
 
