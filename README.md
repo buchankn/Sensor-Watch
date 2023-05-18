@@ -23,9 +23,9 @@ Kicad design files to be uploaded shortly, and I'll update the code in this repo
 
 ![image](/images/F91W_PCB.png)
 
-![image](/images/F91W_PCB_3d_Back.jpg)
-
 ![image](/images/F91W_PCB_3d_Front.jpg)
+
+![image](/images/F91W_PCB_3d_Back.jpg)
 
 Below is the original readme for Joey Castillo's sensor watch (see https://github.com/joeycastillo/Sensor-Watch, and https://www.sensorwatch.net/):
 
