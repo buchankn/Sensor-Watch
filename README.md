@@ -9,7 +9,7 @@ My main goals are to:
 * Add a BMA400 accelerometer to the board for step counting, and perhaps experiment with wake-on-arm-lift, etc
 * Add PAM8904E for a louder (and adjustable) piezo driver
 * Remove USB, and add SWD Tag-Connect pads
-* Add additional SWD pads on back of board
+* Add additional SWD pads on back of board (covered with tape when watch is assembled with the battery)
 
 I replaced the 2 color led side light with 2 individual 0603 LEDs, so I could pick and choose each LED. Will it be better than the bi-color? We'll see... I chose not to go with an RGB LED, because I wanted LEDs on both sides of the display, and I couldn't spare 6 gpio for them. And I didn't want to connect multiple LEDs to one gpio, because it could exceed the max current for the gpio pin.
 
