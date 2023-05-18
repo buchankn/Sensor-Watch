@@ -21,7 +21,7 @@ I added Tag-Connect pads to make programming the board easier, without having to
 
 Kicad design files to be uploaded shortly, and I'll update the code in this repository to match all the changes/additions I made...
 
-Prototype boards have been ordered! Crossing my fingers that I didn't miss anything :)
+Prototype boards have been ordered from PCBWay! Crossing my fingers that I didn't miss anything :)
 
 ![image](/images/F91W_PCB.png)
 
