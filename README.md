@@ -8,12 +8,16 @@ My main goals are to:
 * Add led 'side-lighting' to the right side of the LCD as well as the left
 * Add a BMA400 accelerometer to the board for step counting, and perhaps experiment with wake-on-arm-lift, etc
 * Add PAM8904E for a louder (and adjustable) piezo driver
+* Remove USB, and add SWD Tag-Connect pads
+* Add additional SWD pads on back of board
 
 I replaced the 2 color led side light with 2 individual 0603 LEDs, so I could pick and choose each LED. Will it be better than the bi-color? We'll see... I chose not to go with an RGB LED, because I wanted LEDs on both sides of the display, and I couldn't spare 6 gpio for them. And I didn't want to connect multiple LEDs to one gpio, because it could exceed the max current for the gpio pin.
 
 I also added a TPS610985 to the board, to ensure that the board always gets a stable 3V supply, and the voltage supply to the LEDs doesn't dip below the LED forward voltage. The GPIO pins have a higher rated current at 3V, so this also ensures that turning on the LEDs doesn't exceed the max GPIO current. Using a boost converter will decrease battery life, but it's still to be determined by how much. The TPS610985 is pretty amazingly efficient, so I'm hoping to still get decent battery life with it.
 
 The PAM8904E should make the buzzer on the watch louder, and the voltage to the buzzer is adjustable by 3 levels, so there's a sort of volume control with it.
+
+I added Tag-Connect pads to make programming the board easier, without having to mess with custom POGO pins and such. Also, the SWD pads on the back of the board will allow me to assemble the board with the LCD, but without the battery, and solder wires to the debug pads to debug the board with the LCD connected. This of course means there is no bootloader, and the board can only be programmed using SWD.
 
 Kicad design files to be uploaded shortly, and I'll update the code in this repository to match all the changes/additions I made...
 
