@@ -61,7 +61,7 @@ CFLAGS += -MD -MP -MT $(BUILD)/$(*F).o -MF $(BUILD)/$(@F).d
 
 LDFLAGS += -mcpu=cortex-m0plus -mthumb
 LDFLAGS += -Wl,--gc-sections
-LDFLAGS += -Wl,--script=$(TOP)/watch-library/hardware/linker/saml22j18.ld
+LDFLAGS += -Wl,--script=$(TOP)/watch-library/hardware/linker/saml22j18a_flash.ld
 
 LIBS += -lm
 
