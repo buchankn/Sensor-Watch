@@ -26,7 +26,7 @@ families = {
 
 INFO_FILE = "/INFO_UF2.TXT"
 
-appstartaddr = 0x2000
+appstartaddr = 0x0000
 familyid = 0x0
 
 
@@ -230,8 +230,8 @@ def main():
     parser.add_argument('input', metavar='INPUT', type=str, nargs='?',
                         help='input file (HEX, BIN or UF2)')
     parser.add_argument('-b' , '--base', dest='base', type=str,
-                        default="0x2000",
-                        help='set base address of application for BIN format (default: 0x2000)')
+                        default="0x0000",
+                        help='set base address of application for BIN format (default: 0x0000)')
     parser.add_argument('-o' , '--output', metavar="FILE", dest='output', type=str,
                         help='write output to named file; defaults to "flash.uf2" or "flash.bin" where sensible')
     parser.add_argument('-d' , '--device', dest="device_path",
