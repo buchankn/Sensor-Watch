@@ -7,7 +7,7 @@ endif
 BIN = watch
 
 ifndef BOARD
-override BOARD = OSO-SWAT-A1-05
+override BOARD = F91W-PEDOMETER
 endif
 
 ##############################################################################

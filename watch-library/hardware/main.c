@@ -37,6 +37,8 @@ int main(void) {
     // ASF code. Initialize the MCU with configuration options from Atmel Studio.
     init_mcu();
 
+#if BOARD != F91W-PEDOMETER
+#warning Enabline USB on this board
     // check if we are plugged into USB power.
     watch_enable_digital_input(VBUS_DET);
     watch_enable_pull_down(VBUS_DET);
@@ -45,6 +47,9 @@ int main(void) {
         _watch_enable_usb();
     }
     watch_disable_digital_input(VBUS_DET);
+#else
+#warning No USB on this board
+#endif
 
     // initialize the delay driver before any user code is called.
     delay_driver_init();

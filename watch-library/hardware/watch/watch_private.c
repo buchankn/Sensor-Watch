@@ -137,35 +137,74 @@ void _watch_enable_tcc(void) {
     hri_tcc_write_WAVE_reg(TCC0, TCC_WAVE_WAVEGEN_NPWM);
     #ifdef WATCH_INVERT_LED_POLARITY
     // This is here for the dev board, which uses a common anode LED (instead of common cathode like the actual watch).
+    #if BOARD != F91W-PEDOMETER
     hri_tcc_set_WAVE_reg(TCC0, (1 << (TCC_WAVE_POL0_Pos + WATCH_RED_TCC_CHANNEL)) |
                                (1 << (TCC_WAVE_POL0_Pos + WATCH_GREEN_TCC_CHANNEL)));
+    #else
+    hri_tcc_set_WAVE_reg(TCC0, (1 << (TCC_WAVE_POL0_Pos + WATCH_LEFT_LED_1_TCC_CHANNEL)) |
+                               (1 << (TCC_WAVE_POL0_Pos + WATCH_LEFT_LED_2_TCC_CHANNEL)));
+    #endif
     #endif
     // The buzzer will set the period depending on the tone it wants to play, but we have to set some period here to
     // get the LED working. Almost any period will do, tho it should be below 20000 (i.e. 50 Hz) to avoid flickering.
     hri_tcc_write_PER_reg(TCC0, 1024);
     // Set the duty cycle of all pins to 0: LED's off, buzzer not buzzing.
     hri_tcc_write_CC_reg(TCC0, WATCH_BUZZER_TCC_CHANNEL, 0);
+
+#if BOARD != F91W-PEDOMETER
     hri_tcc_write_CC_reg(TCC0, WATCH_RED_TCC_CHANNEL, 0);
     hri_tcc_write_CC_reg(TCC0, WATCH_GREEN_TCC_CHANNEL, 0);
+#else
+#warning Configuring LEDs TCC channel F91W-PEDOMETER
+    hri_tcc_write_CC_reg(TCC0, WATCH_LEFT_LED_1_TCC_CHANNEL, 0);
+    hri_tcc_write_CC_reg(TCC0, WATCH_LEFT_LED_2_TCC_CHANNEL, 0);
+#endif
+
     // Enable the TCC
     hri_tcc_set_CTRLA_ENABLE_bit(TCC0);
     hri_tcc_wait_for_sync(TCC0, TCC_SYNCBUSY_ENABLE);
 
     // enable LED PWM pins (the LED driver assumes if the TCC is on, the pins are enabled)
+#if BOARD != F91W-PEDOMETER
     gpio_set_pin_direction(RED, GPIO_DIRECTION_OUT);
     gpio_set_pin_function(RED, WATCH_RED_TCC_PINMUX);
     gpio_set_pin_direction(GREEN, GPIO_DIRECTION_OUT);
     gpio_set_pin_function(GREEN, WATCH_GREEN_TCC_PINMUX);
+#else
+#warning Configuring LEDs GPIO and PINMUX F91W-PEDOMETER
+    gpio_set_pin_direction(LEFT_LED_1, GPIO_DIRECTION_OUT);
+    gpio_set_pin_function(LEFT_LED_1, WATCH_LEFT_LED_1_TCC_PINMUX);
+
+    gpio_set_pin_direction(LEFT_LED_2, GPIO_DIRECTION_OUT);
+    gpio_set_pin_function(LEFT_LED_2, WATCH_LEFT_LED_2_TCC_PINMUX);
+
+    gpio_set_pin_direction(RIGHT_LED_1, GPIO_DIRECTION_OUT);
+    gpio_set_pin_function(RIGHT_LED_1, WATCH_RIGHT_LED_1_TCC_PINMUX);
+
+    gpio_set_pin_direction(RIGHT_LED_2, GPIO_DIRECTION_OUT);
+    gpio_set_pin_function(RIGHT_LED_2, WATCH_RIGHT_LED_2_TCC_PINMUX);
+#endif
 }
 
 void _watch_disable_tcc(void) {
     // disable all PWM pins
     gpio_set_pin_direction(BUZZER, GPIO_DIRECTION_OFF);
     gpio_set_pin_function(BUZZER, GPIO_PIN_FUNCTION_OFF);
+#if BOARD != F91W-PEDOMETER
     gpio_set_pin_direction(RED, GPIO_DIRECTION_OFF);
     gpio_set_pin_function(RED, GPIO_PIN_FUNCTION_OFF);
     gpio_set_pin_direction(GREEN, GPIO_DIRECTION_OFF);
     gpio_set_pin_function(GREEN, GPIO_PIN_FUNCTION_OFF);
+#else
+    gpio_set_pin_direction(LEFT_LED_1, GPIO_DIRECTION_OFF);
+    gpio_set_pin_function(LEFT_LED_1, GPIO_PIN_FUNCTION_OFF);
+    gpio_set_pin_direction(LEFT_LED_2, GPIO_DIRECTION_OFF);
+    gpio_set_pin_function(LEFT_LED_2, GPIO_PIN_FUNCTION_OFF);
+    gpio_set_pin_direction(RIGHT_LED_1, GPIO_DIRECTION_OFF);
+    gpio_set_pin_function(RIGHT_LED_1, GPIO_PIN_FUNCTION_OFF);
+    gpio_set_pin_direction(RIGHT_LED_2, GPIO_DIRECTION_OFF);
+    gpio_set_pin_function(RIGHT_LED_2, GPIO_PIN_FUNCTION_OFF);
+#endif
 
     // disable the TCC
     hri_tcc_clear_CTRLA_ENABLE_bit(TCC0);
