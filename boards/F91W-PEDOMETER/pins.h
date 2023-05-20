@@ -33,33 +33,34 @@
 
 
 // Segment LCD
-#define SLCD0 GPIO(GPIO_PORTB, 6)
-#define SLCD1 GPIO(GPIO_PORTB, 7)
-#define SLCD2 GPIO(GPIO_PORTB, 8)
-#define SLCD3 GPIO(GPIO_PORTB, 9)
-#define SLCD4 GPIO(GPIO_PORTA, 5)
-#define SLCD5 GPIO(GPIO_PORTA, 6)
-#define SLCD6 GPIO(GPIO_PORTA, 8)
-#define SLCD7 GPIO(GPIO_PORTA, 9)
-#define SLCD8 GPIO(GPIO_PORTA, 10)
-#define SLCD9 GPIO(GPIO_PORTA, 11)
-#define SLCD10 GPIO(GPIO_PORTB, 11)
-#define SLCD11 GPIO(GPIO_PORTB, 12)
-#define SLCD12 GPIO(GPIO_PORTB, 13)
-#define SLCD13 GPIO(GPIO_PORTB, 14)
-#define SLCD14 GPIO(GPIO_PORTB, 15)
-#define SLCD15 GPIO(GPIO_PORTA, 14)
-#define SLCD16 GPIO(GPIO_PORTA, 15)
-#define SLCD17 GPIO(GPIO_PORTA, 16)
-#define SLCD18 GPIO(GPIO_PORTA, 17)
-#define SLCD19 GPIO(GPIO_PORTA, 18)
-#define SLCD20 GPIO(GPIO_PORTA, 19)
-#define SLCD21 GPIO(GPIO_PORTB, 16)
-#define SLCD22 GPIO(GPIO_PORTB, 17)
-#define SLCD23 GPIO(GPIO_PORTA, 20)
-#define SLCD24 GPIO(GPIO_PORTA, 21)
-#define SLCD25 GPIO(GPIO_PORTA, 22)
-#define SLCD26 GPIO(GPIO_PORTA, 23)
+#define SLCD0 GPIO(GPIO_PORTB, 6)   // COM0
+#define SLCD1 GPIO(GPIO_PORTB, 7)   // COM1
+#define SLCD2 GPIO(GPIO_PORTB, 8)   // COM2
+#define SLCD3 GPIO(GPIO_PORTB, 9)   // SEG0
+#define SLCD4 GPIO(GPIO_PORTA, 4)   // SEG1
+#define SLCD5 GPIO(GPIO_PORTA, 5)   // SEG2
+#define SLCD6 GPIO(GPIO_PORTA, 6)   // SEG3
+#define SLCD7 GPIO(GPIO_PORTA, 7)   // SEG4
+#define SLCD8 GPIO(GPIO_PORTA, 8)  // SEG5
+#define SLCD9 GPIO(GPIO_PORTA, 9)  // SEG6
+#define SLCD10 GPIO(GPIO_PORTA, 10) // SEG7
+#define SLCD11 GPIO(GPIO_PORTA, 11) // SEG8
+#define SLCD12 GPIO(GPIO_PORTB, 11) // SEG9
+#define SLCD13 GPIO(GPIO_PORTB, 12) // SEG10
+#define SLCD14 GPIO(GPIO_PORTB, 13) // SEG11
+#define SLCD15 GPIO(GPIO_PORTB, 15) // SEG12
+#define SLCD16 GPIO(GPIO_PORTA, 12) // SEG13
+#define SLCD17 GPIO(GPIO_PORTA, 13) // SEG14
+#define SLCD18 GPIO(GPIO_PORTA, 14) // SEG15
+#define SLCD19 GPIO(GPIO_PORTA, 15) // SEG16
+#define SLCD20 GPIO(GPIO_PORTA, 16) // SEG17
+#define SLCD21 GPIO(GPIO_PORTA, 17) // SEG18
+#define SLCD22 GPIO(GPIO_PORTA, 18) // SEG19
+#define SLCD23 GPIO(GPIO_PORTA, 19) // SEG20
+#define SLCD24 GPIO(GPIO_PORTB, 16) // SEG21
+#define SLCD25 GPIO(GPIO_PORTB, 17) // SEG22
+#define SLCD26 GPIO(GPIO_PORTA, 20) // SEG23
+
 // This board uses a slightly different pin mapping from the standard watch, and it's not enough to
 // just declare the pins. We also have to set the LCD Pin Enable register with the SLCD pins we're
 // using. These numbers are not port/pin numbers, but the "SLCD/LP[x]" numbers in the pinmux table.
@@ -70,8 +71,10 @@
         (uint32_t)1 <<  1 | \
         (uint32_t)1 <<  2 | \
         (uint32_t)1 <<  3 | \
+        (uint32_t)1 <<  4 | \
         (uint32_t)1 <<  5 | \
         (uint32_t)1 <<  6 | \
+        (uint32_t)1 <<  7 | \
         (uint32_t)1 << 11 | \
         (uint32_t)1 << 12 | \
         (uint32_t)1 << 13 | \
@@ -79,8 +82,9 @@
         (uint32_t)1 << 21 | \
         (uint32_t)1 << 22 | \
         (uint32_t)1 << 23 | \
-        (uint32_t)1 << 24 | \
         (uint32_t)1 << 25 | \
+        (uint32_t)1 << 28 | \
+        (uint32_t)1 << 29 | \
         (uint32_t)1 << 30 | \
         (uint32_t)1 << 31 | 0)
 // LPENH is for pins SLCD/LP[32..51], where bit 0 represents pin 32.
@@ -91,10 +95,7 @@
         (uint32_t)1 << (35 - 32) | \
         (uint32_t)1 << (42 - 32) | \
         (uint32_t)1 << (43 - 32) | \
-        (uint32_t)1 << (48 - 32) | \
-        (uint32_t)1 << (49 - 32) | \
-        (uint32_t)1 << (50 - 32) | \
-        (uint32_t)1 << (51 - 32) | 0)
+        (uint32_t)1 << (48 - 32) | 0)
 
 
 // 9-pin connector
