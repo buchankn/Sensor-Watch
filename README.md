@@ -23,6 +23,8 @@ Kicad design files to be uploaded shortly, and I'll update the code in this repo
 
 Prototype boards have been ordered from PCBWay! Crossing my fingers that I didn't miss anything :)
 
+Update 5/20/2023 -- Grrr... I accidently placed a resistor in a "keep out" zone, where the white case touches the PCB. I'll have to cut the case a little for these boards to fit... oh well, I should be able to get it to work still, it'll just be a little more work...
+
 ![image](/images/F91W_PCB.png)
 
 ![image](/images/F91W_PCB_3d_Front.jpg)
