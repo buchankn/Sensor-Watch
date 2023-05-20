@@ -37,8 +37,13 @@ void watch_disable_leds(void) {
 void watch_set_led_color(uint8_t red, uint8_t green) {
     if (hri_tcc_get_CTRLA_reg(TCC0, TCC_CTRLA_ENABLE)) {
         uint32_t period = hri_tcc_get_PER_reg(TCC0, TCC_PER_MASK);
+#if BOARD != F91W-PEDOMETER
         hri_tcc_write_CCBUF_reg(TCC0, WATCH_RED_TCC_CHANNEL, ((period * red * 1000ull) / 255000ull));
         hri_tcc_write_CCBUF_reg(TCC0, WATCH_GREEN_TCC_CHANNEL, ((period * green * 1000ull) / 255000ull));
+#else
+        hri_tcc_write_CCBUF_reg(TCC0, WATCH_LED_1_TCC_CHANNEL, ((period * red * 1000ull) / 255000ull));
+        hri_tcc_write_CCBUF_reg(TCC0, WATCH_LED_2_TCC_CHANNEL, ((period * green * 1000ull) / 255000ull));
+#endif
     }
 }
 

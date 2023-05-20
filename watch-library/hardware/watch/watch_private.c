@@ -141,8 +141,8 @@ void _watch_enable_tcc(void) {
     hri_tcc_set_WAVE_reg(TCC0, (1 << (TCC_WAVE_POL0_Pos + WATCH_RED_TCC_CHANNEL)) |
                                (1 << (TCC_WAVE_POL0_Pos + WATCH_GREEN_TCC_CHANNEL)));
     #else
-    hri_tcc_set_WAVE_reg(TCC0, (1 << (TCC_WAVE_POL0_Pos + WATCH_LEFT_LED_1_TCC_CHANNEL)) |
-                               (1 << (TCC_WAVE_POL0_Pos + WATCH_LEFT_LED_2_TCC_CHANNEL)));
+    hri_tcc_set_WAVE_reg(TCC0, (1 << (TCC_WAVE_POL0_Pos + WATCH_LED_1_TCC_CHANNEL)) |
+                               (1 << (TCC_WAVE_POL0_Pos + WATCH_LED_2_TCC_CHANNEL)));
     #endif
     #endif
     // The buzzer will set the period depending on the tone it wants to play, but we have to set some period here to
@@ -156,8 +156,8 @@ void _watch_enable_tcc(void) {
     hri_tcc_write_CC_reg(TCC0, WATCH_GREEN_TCC_CHANNEL, 0);
 #else
 #warning Configuring LEDs TCC channel F91W-PEDOMETER
-    hri_tcc_write_CC_reg(TCC0, WATCH_LEFT_LED_1_TCC_CHANNEL, 0);
-    hri_tcc_write_CC_reg(TCC0, WATCH_LEFT_LED_2_TCC_CHANNEL, 0);
+    hri_tcc_write_CC_reg(TCC0, WATCH_LED_1_TCC_CHANNEL, 0);
+    hri_tcc_write_CC_reg(TCC0, WATCH_LED_2_TCC_CHANNEL, 0);
 #endif
 
     // Enable the TCC
