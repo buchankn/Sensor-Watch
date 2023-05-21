@@ -26,7 +26,7 @@ Prototype boards have been ordered from PCBWay! Crossing my fingers that I didn'
 Things I plan on fixing/improving on version 2.0 of the PCB:
 
 * I accidently placed a resistor in a "keep out" zone, where the white case touches the PCB. I'll have to cut the case a little for these boards to fit.
-* Connect ENABLE_SECONDARY_POWER to a gpio pin, so that the transient response of the boost regulator can be improved during active mode.
+* Connect ENABLE_SECONDARY_POWER to a gpio pin, so that the transient response of the boost regulator can be improved during active mode (I'm thinking about the times I'm using PWM for the LEDs and buzzer).
 * See if I can connect all three buttons to an RTC wake pin.
 
 ![image](/images/F91W_PCB.png)
