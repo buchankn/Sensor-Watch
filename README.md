@@ -29,6 +29,12 @@ Things I plan on fixing/improving on version 2.0 of the PCB:
 * Connect ENABLE_SECONDARY_POWER to a gpio pin, so that the transient response of the boost regulator can be improved during active mode (I'm thinking about the times I'm using PWM for the LEDs and buzzer).
 * See if I can connect all three buttons to an RTC wake pin.
 
+Here's a picture of the new pin assignemts I plan for version 2.0 of the PCB:
+
+![image](/images/UpdatedPinAssignments_PCB_Version2.png)
+
+And pictures of version 1.0 of the PCB:
+
 ![image](/images/F91W_PCB.png)
 
 ![image](/images/F91W_PCB_3d_Front.jpg)
