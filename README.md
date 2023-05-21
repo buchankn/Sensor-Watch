@@ -23,7 +23,11 @@ Kicad design files to be uploaded shortly, and I'll update the code in this repo
 
 Prototype boards have been ordered from PCBWay! Crossing my fingers that I didn't miss anything :)
 
-Update 5/20/2023 -- Grrr... I accidently placed a resistor in a "keep out" zone, where the white case touches the PCB. I'll have to cut the case a little for these boards to fit... oh well, I should be able to get it to work still, it'll just be a little more work...
+Things I plan on fixing/improving on version 2.0 of the PCB:
+
+* I accidently placed a resistor in a "keep out" zone, where the white case touches the PCB. I'll have to cut the case a little for these boards to fit.
+* Connect ENABLE_SECONDARY_POWER to a gpio pin, so that the transient response of the boost regulator can be improved during active mode.
+* See if I can connect all three buttons to an RTC wake pin.
 
 ![image](/images/F91W_PCB.png)
 
